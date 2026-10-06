@@ -16,13 +16,13 @@ A base está em estruturação. Esta lista indica os temas previstos; não afirm
 
 ## Organização por namespaces
 
-A documentação segue os namespaces do produto. Cada segmento corresponde a um diretório sob `docs/`, preservando o nome e a capitalização:
+A documentação segue os namespaces do produto. Cada segmento corresponde a um diretório diretamente na raiz do repositório, preservando o nome e a capitalização. O `README.md` é o índice geral:
 
 | Namespace | Caminho previsto | Assuntos |
 | --- | --- | --- |
-| `Sufficit.Sales` | `docs/Sufficit/Sales/` | Catálogo, contratos, contratação e renovação. |
-| `Sufficit.Finance` | `docs/Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
-| `Sufficit.Telephony` | `docs/Sufficit/Telephony/` | Recursos e funcionamento da telefonia. |
+| `Sufficit.Sales` | `Sufficit/Sales/` | Catálogo, contratos, contratação e renovação. |
+| `Sufficit.Finance` | `Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
+| `Sufficit.Telephony` | `Sufficit/Telephony/` | Recursos e funcionamento da telefonia. |
 
 Esses caminhos definem a organização; as páginas de fluxos ainda não foram publicadas. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
 
