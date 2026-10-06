@@ -74,14 +74,34 @@ Não declare uma página revisada apenas por ter sido editada: revisão exige co
 ## Organização e manutenção
 
 - Use Markdown como fonte principal e links relativos entre páginas.
-- Organize por domínio e tarefa do usuário, evitando reproduzir a estrutura dos projetos de código.
+- Organize a documentação pela hierarquia dos namespaces Sufficit existentes, preservando seus nomes, idioma e capitalização. Dentro de cada namespace, organize as páginas por tarefa do usuário.
 - Mantenha um índice navegável; inclua páginas novas no índice existente.
-- Prefira nomes estáveis em minúsculas, com hífens e sem espaços para páginas públicas.
+- Use a capitalização original nos diretórios dos namespaces; para os arquivos Markdown de fluxos, prefira nomes estáveis em minúsculas, com hífens e sem espaços.
 - Preserve links ao mover páginas; atualize as referências afetadas.
 - Mantenha uma página canônica para cada regra; outras páginas devem referenciá-la em vez de duplicá-la.
 - Detalhes técnicos específicos podem continuar no projeto de origem; a wiki centraliza a explicação pública do fluxo.
 - Atualize as páginas relacionadas quando uma mudança alterar comportamento, termos ou estados.
 - Não migre toda a documentação nem desenvolva um portal sem uma solicitação que autorize esse escopo.
+
+### Mapeamento dos namespaces
+
+A raiz da documentação do produto é `docs/Sufficit/`. Cada segmento depois de `Sufficit` corresponde a um diretório. Por exemplo, `Sufficit.Sales` corresponde a `docs/Sufficit/Sales/`; um subnamespace corresponde a um subdiretório, desde que exista no produto.
+
+| Namespace | Diretório | Conteúdo |
+| --- | --- | --- |
+| `Sufficit.Sales` | `docs/Sufficit/Sales/` | Contratação, catálogo, contratos, vigência e renovação de serviços. |
+| `Sufficit.Finance` | `docs/Sufficit/Finance/` | Cobrança, pagamentos, créditos e conceitos financeiros. |
+| `Sufficit.Telephony` | `docs/Sufficit/Telephony/` | Funcionamento dos recursos de telefonia. |
+
+Exemplo de página: `docs/Sufficit/Sales/renovacao-servicos.md`, identificada no conteúdo com `Namespace: Sufficit.Sales`. Esses caminhos ilustram a convenção; não indicam páginas já publicadas.
+
+Antes de adicionar um domínio ou subdomínio, confirme o namespace na implementação ou em uma decisão explícita do responsável. Não invente namespaces com base em um título de tela nem traduza `Sales` para `Vendas` ou `Finance` para `Financeiro` nos caminhos. Os títulos e explicações das páginas continuam em português.
+
+Use o namespace do domínio responsável pela regra, compartilhado entre as camadas do produto. Uma página sobre contratos pertence a `Sufficit.Sales`, mesmo que sua tela esteja implementada em uma camada Blazor. Documentação específica de uma biblioteca ou camada pode usar seu namespace real quando esse for o assunto.
+
+Fluxos que atravessam namespaces têm uma página canônica no domínio responsável pela ação principal e links para as regras dos outros domínios. Não duplique páginas em vários diretórios nem crie categorias paralelas fora dessa hierarquia para os mesmos assuntos. Cada página de produto deve indicar seu namespace.
+
+O índice geral pode ficar em `docs/index.md`; índices de domínio ficam em `docs/Sufficit/<domínio>/index.md`. README, AGENTS, planos e registros de manutenção não são páginas de domínio e ficam em seus locais próprios.
 
 Planos de execução, quando solicitados ou necessários, ficam em `docs/PLAN-*.md`, nunca na raiz. Registros de atividade seguem a convenção local em `docs/activities/`. Esses arquivos também são públicos e devem obedecer às mesmas restrições; não transforme a wiki em arquivo de tarefas internas. Confira as convenções existentes antes de criar novos documentos.
 

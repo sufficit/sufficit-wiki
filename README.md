@@ -14,6 +14,18 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 
 A base está em estruturação. Esta lista indica os temas previstos; não afirma disponibilidade de funcionalidades no produto. Cada página deverá informar suas condições de disponibilidade e última revisão.
 
+## Organização por namespaces
+
+A documentação segue os namespaces do produto. Cada segmento corresponde a um diretório sob `docs/`, preservando o nome e a capitalização:
+
+| Namespace | Caminho previsto | Assuntos |
+| --- | --- | --- |
+| `Sufficit.Sales` | `docs/Sufficit/Sales/` | Catálogo, contratos, contratação e renovação. |
+| `Sufficit.Finance` | `docs/Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
+| `Sufficit.Telephony` | `docs/Sufficit/Telephony/` | Recursos e funcionamento da telefonia. |
+
+Esses caminhos definem a organização; as páginas de fluxos ainda não foram publicadas. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
+
 ## Contribuições
 
 Leia [AGENTS.md](AGENTS.md) antes de criar ou atualizar documentação. Descreva o comportamento verificado, use exemplos fictícios e preserve links entre assuntos relacionados.
