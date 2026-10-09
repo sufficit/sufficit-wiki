@@ -6,7 +6,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 
 ## Conteúdo previsto
 
-- Contratação e controle de serviços.
+- [Contratação e controle de serviços](Sufficit/Sales/index.md).
 - Renovação e recorrência.
 - Cobrança, pagamentos e créditos.
 - Cancelamento, estados e permissões funcionais.
@@ -24,7 +24,7 @@ A documentação segue os namespaces do produto. Cada segmento corresponde a um 
 | `Sufficit.Finance` | `Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
 | `Sufficit.Telephony` | `Sufficit/Telephony/` | Recursos e funcionamento da telefonia. |
 
-Esses caminhos definem a organização; as páginas de fluxos ainda não foram publicadas. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
+O domínio Sales possui documentação de serviços pré-pagos em validação; os demais caminhos indicam a organização prevista. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
 
 ## Contribuições
 
