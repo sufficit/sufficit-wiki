@@ -1,0 +1,21 @@
+title: Wiki Sufficit
+description: Base pública de conhecimento Sufficit
+lang: pt-BR
+url: https://wiki.sufficit.com.br
+baseurl: ""
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+relative_links:
+  enabled: true
+  collections: false
+exclude:
+  - docs
+  - AGENTS.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

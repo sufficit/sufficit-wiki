@@ -7,6 +7,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 ## Conteúdo previsto
 
 - [Contratação e controle de serviços](Sufficit/Sales/index.md).
+- [Alertas de monitoramento por ligação e WhatsApp](Sufficit/Gateway/Zabbix/alertas-monitoramento.md).
 - Renovação e recorrência.
 - Cobrança, pagamentos e créditos.
 - Cancelamento, estados e permissões funcionais.
@@ -22,12 +23,13 @@ A documentação segue os namespaces do produto. Cada segmento corresponde a um 
 | --- | --- | --- |
 | `Sufficit.Sales` | `Sufficit/Sales/` | Catálogo, contratos, contratação e renovação. |
 | `Sufficit.Finance` | `Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
+| `Sufficit.Gateway` | `Sufficit/Gateway/` | Integrações; condições de uso e ativação. |
 | `Sufficit.Telephony` | `Sufficit/Telephony/` | Recursos e funcionamento da telefonia. |
 
-O domínio Sales possui documentação de serviços pré-pagos em validação; os demais caminhos indicam a organização prevista. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
+O domínio Sales possui documentação de serviços pré-pagos em validação; Gateway documenta alertas Zabbix e suas condições de ativação. Os demais caminhos indicam a organização prevista. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
 
 ## Contribuições
 
-Leia [AGENTS.md](AGENTS.md) antes de criar ou atualizar documentação. Descreva o comportamento verificado, use exemplos fictícios e preserve links entre assuntos relacionados.
+Leia [AGENTS.md](https://github.com/sufficit/sufficit-wiki/blob/main/AGENTS.md) antes de criar ou atualizar documentação. Descreva o comportamento verificado, use exemplos fictícios e preserve links entre assuntos relacionados.
 
 Todo o conteúdo é público. Não inclua dados reais de clientes, credenciais, documentos privados ou detalhes de acesso à infraestrutura interna.
