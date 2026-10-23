@@ -103,7 +103,7 @@ Fluxos que atravessam namespaces têm uma página canônica no domínio respons�
 
 O índice geral é o `README.md` na raiz; índices de domínio ficam em `Sufficit/<domínio>/index.md`. AGENTS, planos e registros de manutenção não são páginas de domínio e ficam em seus locais próprios.
 
-Planos de execução, quando solicitados ou necessários, ficam em `docs/PLAN-*.md`, nunca na raiz. Registros de atividade seguem a convenção local em `docs/activities/`. Esses arquivos também são públicos e devem obedecer às mesmas restrições; não transforme a wiki em arquivo de tarefas internas. Confira as convenções existentes antes de criar novos documentos.
+Planos de execução, quando solicitados ou necessários, ficam em `docs/PLAN-*.md`, nunca na raiz, e são listados com link relativo nesta seção enquanto existirem; plano concluído vira registro em `docs/activities/` e deixa de existir. Registros de atividade seguem a convenção local em `docs/activities/`. Esses arquivos também são públicos e devem obedecer às mesmas restrições; não transforme a wiki em arquivo de tarefas internas. Confira as convenções existentes antes de criar novos documentos.
 
 ## Validação e entrega
 
@@ -111,7 +111,7 @@ Antes de concluir uma mudança:
 
 - Confira precisão das regras e indicação de disponibilidade.
 - Revise arquivos e diff para dados sensíveis e referências internas.
-- Valide links relativos, imagens, âncoras e inclusão no índice.
+- Valide links relativos, imagens, âncoras e inclusão no índice. `python3 scripts/markdown_coverage.py` (executado também pelo CI em `.github/workflows/docs.yml`) exige que todo `.md` seja alcançável por links a partir do `README.md`, a partir do seu pai natural (índice do domínio, página relacionada ou, para documentos de contribuição, este `AGENTS.md`), e que nenhum link aponte para `.md` inexistente. Páginas publicadas não podem ter link relativo para arquivos fora do site (`exclude` do `_config.yml`, como `docs/` e `AGENTS.md`); use o endereço `https://github.com/sufficit/sufficit-wiki/blob/main/<caminho>`. Isenções, apenas para histórico, ficam em `.markdown-coverage-ignore` (hoje só `docs/activities/`).
 - Execute os validadores e o build de documentação existentes, quando aplicáveis; não crie infraestrutura de testes apenas para uma edição simples.
 - Preserve alterações de outras pessoas e informe o que foi validado e o que continua incerto.
 

@@ -1,0 +1,2 @@
+# Test-time dependencies for scripts/markdown_coverage.py (CI: .github/workflows/docs.yml).
+markdown-it-py==3.0.0
