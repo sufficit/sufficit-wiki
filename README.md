@@ -6,6 +6,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 
 ## Conteúdo previsto
 
+- [Telefonia e caixas postais](Sufficit/Telephony/index.md).
 - [Contratação e controle de serviços](Sufficit/Sales/index.md).
 - [Alertas de monitoramento por ligação e WhatsApp](Sufficit/Gateway/Zabbix/alertas-monitoramento.md).
 - Renovação e recorrência.
@@ -26,7 +27,7 @@ A documentação segue os namespaces do produto. Cada segmento corresponde a um 
 | `Sufficit.Gateway` | `Sufficit/Gateway/` | Integrações; condições de uso e ativação. |
 | `Sufficit.Telephony` | `Sufficit/Telephony/` | Recursos e funcionamento da telefonia. |
 
-O domínio Sales possui documentação de serviços pré-pagos em validação; Gateway documenta alertas Zabbix e suas condições de ativação. Os demais caminhos indicam a organização prevista. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
+O domínio Sales possui documentação de serviços pré-pagos em validação; Gateway documenta alertas Zabbix e suas condições de ativação. Telefonia documenta gravação e recebimento de recados por caixa postal. Os demais caminhos indicam a organização prevista. Novos domínios e subdomínios devem corresponder a namespaces existentes. Os títulos e textos continuam em português, e cada página informa seu namespace.
 
 ## Contribuições
 
