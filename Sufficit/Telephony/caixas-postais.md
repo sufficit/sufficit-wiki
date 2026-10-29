@@ -55,6 +55,7 @@ Ao explicar o recurso, consulte a configuração da empresa. Se não houver aces
 
 ## Páginas relacionadas
 
+- [Gravação de chamadas](gravacao-chamadas.md)
 - [Telefonia](index.md)
 - [Wiki Sufficit](../../README.md)
 
