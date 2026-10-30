@@ -31,7 +31,6 @@ Conta toda ligação que sai pelo tronco individual, mesmo que o destino não at
 - Ao atingir o limite, novas ligações externas não saem pelo tronco individual até que chamadas antigas deixem a janela de 72 horas. Se a empresa tiver outro serviço de saída contratado, a ligação pode seguir por ele.
 - Uma segunda ligação externa simultânea não sai pelo tronco individual, porque ele tem um único canal.
 - Falhas temporárias nos sistemas internos de cobrança ou contagem não bloqueiam ligações autorizadas pelo serviço contratado.
-- A contagem em janela de 3 dias está em implantação. Enquanto isso, alguns ambientes ainda contam 30 chamadas nas últimas 24 horas.
 
 ## Exemplo ilustrativo
 
