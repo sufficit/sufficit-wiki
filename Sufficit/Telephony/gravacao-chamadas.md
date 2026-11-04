@@ -23,9 +23,9 @@ Para ligar ou desligar a gravação de um ramal, é necessário acesso à empres
 | Ligação para fora que caiu na caixa postal da operadora | Sim, e costuma constar como atendida |
 | Ramal com a gravação desligada pela empresa | Não |
 
-O áudio é registrado a partir do momento em que a conversa é estabelecida. O tempo de espera e o toque não fazem parte da gravação.
+Nas ligações recebidas, o áudio é registrado a partir do momento em que a conversa é estabelecida; o tempo de espera e o toque não fazem parte da gravação. Nas ligações feitas para fora, a gravação começa já na discagem e pode incluir o toque e mensagens da operadora, mesmo que a ligação conste como não atendida ou ocupada.
 
-As operadoras no Brasil tratam a caixa postal de formas diferentes, e o sistema não consegue identificá-la. Por isso, uma ligação para fora que caiu na caixa postal costuma constar como atendida no histórico, e a gravação traz a mensagem da operadora. Ligações para fora que constam como não atendidas ou ocupadas também podem ter uma gravação curta com esse tipo de mensagem.
+As operadoras no Brasil tratam a caixa postal de formas diferentes, e o sistema não consegue identificá-la. Por isso, uma ligação para fora que caiu na caixa postal costuma constar como atendida no histórico, e a gravação traz a mensagem da operadora.
 
 ## Ligar ou desligar a gravação de um ramal
 
