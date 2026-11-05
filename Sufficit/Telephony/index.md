@@ -6,6 +6,7 @@ Guias de funcionamento dos recursos de telefonia. Cada página informa suas cond
 
 - [Caixas postais: gravação e recebimento de recados](caixas-postais.md)
 - [Gravação de chamadas](gravacao-chamadas.md)
+- [Limites dos planos de saída](limites-planos-saida.md)
 - [Tronco individual](tronco-individual.md)
 - [Voltar à Wiki Sufficit](../../README.md)
 

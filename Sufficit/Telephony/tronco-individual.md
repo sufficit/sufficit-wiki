@@ -34,10 +34,11 @@ Conta toda ligação que sai pelo tronco individual, mesmo que o destino não at
 
 ## Exemplo ilustrativo
 
-Uma empresa fictícia faz 20 ligações na segunda-feira e 20 na terça. Na quarta, tem um dia de muitas ligações e consegue fazer até 50, porque o total dos 3 dias chega a 90. Na quinta, as ligações de segunda já saíram da janela e voltam a ficar disponíveis.
+Uma empresa fictícia faz 20 ligações na segunda-feira e 20 na terça. Na quarta, tem um dia de muitas ligações e consegue fazer até 50, porque o total dos 3 dias chega a 90. Na quinta, a capacidade começa a voltar à medida que cada tentativa de segunda completa 72 horas; não há liberação de toda a franquia à meia-noite.
 
 ## Páginas relacionadas
 
+- [Limites dos planos de saída](limites-planos-saida.md)
 - [Telefonia](index.md)
 - [Wiki Sufficit](../../README.md)
 
