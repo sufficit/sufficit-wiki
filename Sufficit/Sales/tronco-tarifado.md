@@ -5,7 +5,7 @@ Namespace: `Sufficit.Sales`.
 ## Disponibilidade
 
 As regras abaixo descrevem o modelo tarifado adotado na gestão de serviços.
-A configuração genérica de sobreposição no catálogo está em validação para publicação.
+A configuração de sobreposição no catálogo está disponível na versão 1.26.1106.2113 da interface, com a API correspondente.
 O acesso ao lançamento depende das permissões comerciais do gestor.
 
 ## Saldo e validade
