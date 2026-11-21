@@ -6,6 +6,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 
 ## Conteúdo previsto
 
+- [Sufficit AI e privacidade de memórias](Sufficit/AI/index.md).
 - [Telefonia e caixas postais](Sufficit/Telephony/index.md).
 - [Contratação e controle de serviços](Sufficit/Sales/index.md).
 - [Alertas de monitoramento por ligação e WhatsApp](Sufficit/Gateway/Zabbix/alertas-monitoramento.md).
@@ -22,6 +23,7 @@ A documentação segue os namespaces do produto. Cada segmento corresponde a um 
 
 | Namespace | Caminho previsto | Assuntos |
 | --- | --- | --- |
+| `Sufficit.AI` | `Sufficit/AI/` | Memórias e privacidade. |
 | `Sufficit.Sales` | `Sufficit/Sales/` | Catálogo, contratos, contratação e renovação. |
 | `Sufficit.Finance` | `Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
 | `Sufficit.Gateway` | `Sufficit/Gateway/` | Integrações; condições de uso e ativação. |
