@@ -17,7 +17,7 @@ também explica a diferença entre o "Não perturbe" **confirmado** e o
 | Painel de telefonia mostrando presença, "DND" e "DND?" | Disponível desde 23/11/2026. |
 | Filas deixando de oferecer chamadas a ramais em "Não perturbe" ou indisponíveis | Disponível desde 23/11/2026. |
 | Aplicativo Sufficit Phone alterando a presença pelo próprio status | Planejado. |
-| Códigos de discagem para ligar e desligar o "Não perturbe" pelo telefone | Planejado. |
+| Extensão Sufficit Phone para Chrome alterando a presença pelo próprio status | Planejado. |
 | Colegas vendo a presença pela tecla de monitoramento (BLF) do telefone | Planejado. |
 
 ## Estados de presença
@@ -46,7 +46,7 @@ recebendo chamadas de fila. Esse comportamento ainda será reavaliado.
 | | Confirmado (tag **DND**) | Provável (tag **DND?**) |
 | --- | --- | --- |
 | Origem | A presença do ramal está em "Não perturbe" no servidor de voz | O ramal recusou chamadas com "ocupado" estando livre |
-| Quem define | A API de presença, os códigos de discagem ou o "Não perturbe" do próprio PABX | O próprio telefone ou aplicativo (por exemplo, o "Não perturbe" do MicroSIP) |
+| Quem define | Os aplicativos Sufficit (pela API de presença) ou a equipe de gestão | O próprio telefone ou aplicativo (por exemplo, o "Não perturbe" do MicroSIP) |
 | O servidor sabe antes de ligar? | Sim. A fila nem oferece a chamada | Não. A fila oferece a chamada e recebe "ocupado" |
 | Quando some | Quando a presença muda | Quando o ramal volta a tocar, ou 15 minutos depois da última recusa |
 
