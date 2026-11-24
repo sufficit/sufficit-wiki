@@ -89,9 +89,8 @@ verificar.
 
 ## Exceções
 
-- Ramais em tecnologia SIP legada não exibem a presença no painel, porque a
-  presença é ligada ao código único do ramal e esses cards usam o número. O
-  "Não perturbe" provável continua aparecendo.
+- Ramais em tecnologia SIP legada exibem a presença no card do número a partir
+  de uma nova alteração de disponibilidade feita depois de 24/11/2026.
 - O "Não perturbe" de aplicativos de terceiros não é confirmado (veja acima).
 
 ## Exemplo fictício
