@@ -19,7 +19,7 @@ também explica a diferença entre o "Não perturbe" **confirmado** e o
 | Aplicativo Sufficit Phone alterando a presença pela disponibilidade escolhida | Planejado. |
 | Extensão Sufficit Phone para Chrome alterando a presença pela disponibilidade escolhida (Disponível, Não perturbe, Offline = indisponível) | Disponível desde 24/11/2026 (versão 2.23.0). |
 | Colegas vendo a presença pela tecla de monitoramento (BLF) do telefone | Planejado. |
-| Opção no cadastro do ramal: presença unificada (vale para todos os aparelhos) ou por aparelho (extensão do Chrome, aplicativo e telefone de mesa separados) | Planejado. |
+| Opção no cadastro do ramal: presença unificada (vale para todos os aparelhos) ou por aparelho (extensão do Chrome, aplicativo e telefone de mesa separados) | Disponível desde 24/11/2026 (chave "Presença por aparelho" no cadastro do ramal). A extensão do Chrome passa a respeitar a opção na versão 2.23.1. |
 
 ## Estados de presença
 
@@ -70,8 +70,16 @@ verificar.
   receber.
 - Se o servidor não conseguir ler a presença, a fila oferece a chamada
   normalmente. Uma falha nunca deixa de oferecer chamada.
-- Por padrão a presença é **unificada**: o estado escolhido em um aparelho vale
-  para todos os aparelhos do ramal. A opção por aparelho está planejada.
+- Por padrão a presença é **unificada**: a disponibilidade escolhida em um aparelho
+  vale para todos os aparelhos do ramal.
+- Com **Presença por aparelho** ligada no cadastro do ramal, cada aparelho tem a sua:
+  "Não perturbe" na extensão do Chrome não impede o telefone ou o aplicativo de tocar.
+  Dois telefones comuns (fora a extensão do Chrome) no mesmo ramal dividem a mesma
+  presença.
+- No painel, cada tipo de aparelho do ramal tem o seu card (telefone ou aplicativo,
+  extensão do Chrome, SIP legado). O servidor de voz aparece como detalhe no card.
+- Chamadas internas de ramal para ramal ainda tocam mesmo em "Não perturbe"; o
+  bloqueio vale para filas e ligações diretas.
 - Ligação direta para um ramal com todos os aparelhos em "Não perturbe" termina
   como indisponível. Não há correio de voz nem desvio no ramal (veja
   [Ramal, caixa postal e siga-me](ramal-caixa-postal-siga-me.md)).
