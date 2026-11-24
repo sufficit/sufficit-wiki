@@ -19,6 +19,7 @@ também explica a diferença entre o "Não perturbe" **confirmado** e o
 | Aplicativo Sufficit Phone alterando a presença pela disponibilidade escolhida | Planejado. |
 | Extensão Sufficit Phone para Chrome alterando a presença pela disponibilidade escolhida (Disponível, Não perturbe, Offline = indisponível) | Disponível desde 24/11/2026 (versão 2.23.0). |
 | Colegas vendo a presença pela tecla de monitoramento (BLF) do telefone | Planejado. |
+| Opção no cadastro do ramal: presença unificada (vale para todos os aparelhos) ou por aparelho (extensão do Chrome, aplicativo e telefone de mesa separados) | Planejado. |
 
 ## Estados de presença
 
@@ -94,4 +95,4 @@ deixam de oferecer chamadas até ela voltar para "Disponível".
 - [Gravação de chamadas](gravacao-chamadas.md)
 - [Voltar ao índice de Telefonia](index.md)
 
-Última revisão: 23/11/2026. Área responsável: Telefonia.
+Última revisão: 24/11/2026. Área responsável: Telefonia.
