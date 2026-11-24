@@ -4,6 +4,8 @@ Namespace: `Sufficit.Telephony`
 
 A caixa postal recebe um recado de voz de quem liga. O recado é encaminhado aos contatos de notificação configurados para aquela caixa. **O envio por WhatsApp faz parte desse funcionamento**, quando há um destinatário válido nesse canal e a integração está habilitada.
 
+A caixa postal é uma aplicação separada: não existe correio de voz por ramal. Veja [Ramal, caixa postal e siga-me](ramal-caixa-postal-siga-me.md).
+
 ## Disponibilidade e pré-requisitos
 
 Este guia descreve o fluxo de caixas postais com contatos de notificação. A disponibilidade das telas e dos canais depende da versão e da configuração do seu ambiente. Configurações legadas podem ter diferenças; consulte o suporte se a sua tela não corresponder ao guia.
@@ -59,4 +61,4 @@ Ao explicar o recurso, consulte a configuração da empresa. Se não houver aces
 - [Telefonia](index.md)
 - [Wiki Sufficit](../../README.md)
 
-Última revisão: 28/10/2026. Área responsável: Telefonia e notificações.
+Última revisão: 24/11/2026. Área responsável: Telefonia e notificações.

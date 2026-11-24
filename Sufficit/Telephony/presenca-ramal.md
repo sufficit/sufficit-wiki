@@ -70,6 +70,11 @@ verificar.
   receber.
 - Se o servidor não conseguir ler a presença, a fila oferece a chamada
   normalmente. Uma falha nunca deixa de oferecer chamada.
+- Por padrão a presença é **unificada**: o estado escolhido em um aparelho vale
+  para todos os aparelhos do ramal. A opção por aparelho está planejada.
+- Ligação direta para um ramal com todos os aparelhos em "Não perturbe" termina
+  como indisponível. Não há correio de voz nem desvio no ramal (veja
+  [Ramal, caixa postal e siga-me](ramal-caixa-postal-siga-me.md)).
 - No painel, o card mantém o tamanho e a cor de fundo do estado do ramal. A
   presença aparece na linha de estado do card, e o "Não perturbe" também na borda e no
   ícone.
@@ -93,6 +98,7 @@ deixam de oferecer chamadas até ela voltar para "Disponível".
 
 - [Servidores de voz](servidores-voz.md)
 - [Gravação de chamadas](gravacao-chamadas.md)
+- [Ramal, caixa postal e siga-me](ramal-caixa-postal-siga-me.md)
 - [Voltar ao índice de Telefonia](index.md)
 
 Última revisão: 24/11/2026. Área responsável: Telefonia.
