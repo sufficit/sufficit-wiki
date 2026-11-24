@@ -55,7 +55,7 @@ O "Não perturbe" de aplicativos como o MicroSIP fica só no aparelho: o servido
 recebe apenas "ocupado" e não consegue confirmar o motivo. Por isso o painel
 mostra **DND?**. Nesses casos, a fila deixa o ramal fora das ofertas durante a
 "espera após ramal ocupado" configurada na fila (padrão de 10 segundos) e tenta
-de novo depois.
+de novo depois (veja [Filas: ramal ocupado](filas-ramal-ocupado.md)).
 
 Clientes costumam ligar o "Não perturbe" sem perceber e depois relatam que "a
 fila não toca". A tag **DND** ou **DND?** no card do ramal é o primeiro ponto a
@@ -104,6 +104,7 @@ deixam de oferecer chamadas até ela voltar para "Disponível".
 ## Fluxos relacionados
 
 - [Servidores de voz](servidores-voz.md)
+- [Filas: ramal ocupado, sem resposta e sem aparelho](filas-ramal-ocupado.md)
 - [Gravação de chamadas](gravacao-chamadas.md)
 - [Ramal, caixa postal e siga-me](ramal-caixa-postal-siga-me.md)
 - [Voltar ao índice de Telefonia](index.md)
