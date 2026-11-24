@@ -17,7 +17,7 @@ também explica a diferença entre o "Não perturbe" **confirmado** e o
 | Painel de telefonia mostrando presença, "DND" e "DND?" | Disponível desde 23/11/2026. |
 | Filas deixando de oferecer chamadas a ramais em "Não perturbe" ou indisponíveis | Disponível desde 23/11/2026. |
 | Aplicativo Sufficit Phone alterando a presença pelo próprio status | Planejado. |
-| Extensão Sufficit Phone para Chrome alterando a presença pelo próprio status | Planejado. |
+| Extensão Sufficit Phone para Chrome alterando a presença pelo próprio status (Disponível, Ocupado = "Não perturbe", Offline = indisponível) | Disponível desde 24/11/2026 (versão 2.23.0). |
 | Colegas vendo a presença pela tecla de monitoramento (BLF) do telefone | Planejado. |
 
 ## Estados de presença
