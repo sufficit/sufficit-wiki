@@ -16,8 +16,8 @@ também explica a diferença entre o "Não perturbe" **confirmado** e o
 | Presença do ramal gravada no servidor de voz (API de presença) | Disponível desde 23/11/2026. |
 | Painel de telefonia mostrando presença, "DND" e "DND?" | Disponível desde 23/11/2026. |
 | Filas deixando de oferecer chamadas a ramais em "Não perturbe" ou indisponíveis | Disponível desde 23/11/2026. |
-| Aplicativo Sufficit Phone alterando a presença pelo próprio status | Planejado. |
-| Extensão Sufficit Phone para Chrome alterando a presença pelo próprio status (Disponível, Ocupado = "Não perturbe", Offline = indisponível) | Disponível desde 24/11/2026 (versão 2.23.0). |
+| Aplicativo Sufficit Phone alterando a presença pela disponibilidade escolhida | Planejado. |
+| Extensão Sufficit Phone para Chrome alterando a presença pela disponibilidade escolhida (Disponível, Não perturbe, Offline = indisponível) | Disponível desde 24/11/2026 (versão 2.23.0). |
 | Colegas vendo a presença pela tecla de monitoramento (BLF) do telefone | Planejado. |
 
 ## Estados de presença
@@ -70,7 +70,7 @@ verificar.
 - Se o servidor não conseguir ler a presença, a fila oferece a chamada
   normalmente. Uma falha nunca deixa de oferecer chamada.
 - No painel, o card mantém o tamanho e a cor de fundo do estado do ramal. A
-  presença aparece na linha de status, e o "Não perturbe" também na borda e no
+  presença aparece na linha de estado do card, e o "Não perturbe" também na borda e no
   ícone.
 
 ## Exceções
