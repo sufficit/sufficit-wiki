@@ -5,6 +5,7 @@ Namespace: `Sufficit.Telephony`
 Guias de funcionamento dos recursos de telefonia. Cada página informa suas condições de disponibilidade e configuração.
 
 - [Caixas postais: gravação e recebimento de recados](caixas-postais.md)
+- [Chamadas simultâneas no 0800](chamadas-simultaneas-0800.md)
 - [Filas: ramal ocupado, sem resposta e sem aparelho](filas-ramal-ocupado.md)
 - [Gravação de chamadas](gravacao-chamadas.md)
 - [Limites dos planos de saída](limites-planos-saida.md)
@@ -14,4 +15,4 @@ Guias de funcionamento dos recursos de telefonia. Cada página informa suas cond
 - [Tronco individual](tronco-individual.md)
 - [Voltar à Wiki Sufficit](../../README.md)
 
-Última revisão: 24/11/2026. Área responsável: Telefonia.
+Última revisão em 25/11/2026. Área responsável pela página: Telefonia.
