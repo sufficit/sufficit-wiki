@@ -9,6 +9,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 - [Sufficit AI e privacidade de memórias](Sufficit/AI/index.md).
 - [Telefonia e caixas postais](Sufficit/Telephony/index.md).
 - [Contratação e controle de serviços](Sufficit/Sales/index.md).
+- [Chamadas recebidas pelo WhatsApp](Sufficit/Gateway/WhatsApp/chamadas-whatsapp.md).
 - [Alertas de monitoramento por ligação e WhatsApp](Sufficit/Gateway/Zabbix/alertas-monitoramento.md).
 - Renovação e recorrência.
 - Cobrança, pagamentos e créditos.
