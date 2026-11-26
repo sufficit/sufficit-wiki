@@ -7,6 +7,7 @@ Guias de funcionamento dos recursos de telefonia. Cada página informa suas cond
 - [Caixas postais: gravação e recebimento de recados](caixas-postais.md)
 - [Chamadas simultâneas no 0800](chamadas-simultaneas-0800.md)
 - [Filas: ramal ocupado, sem resposta e sem aparelho](filas-ramal-ocupado.md)
+- [Saudação da fila de espera](saudacao-da-fila.md)
 - [Gravação de chamadas](gravacao-chamadas.md)
 - [Limites dos planos de saída](limites-planos-saida.md)
 - [Presença do ramal e "Não perturbe"](presenca-ramal.md)
