@@ -7,7 +7,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 ## Conteúdo previsto
 
 - [Sufficit AI e privacidade de memórias](Sufficit/AI/index.md).
-- [Genius — GitHub CLI e Radicle](Sufficit/AI/Genius/index.md).
+- [Guia do Genius](Sufficit/AI/Genius/index.md) — conversas, arquivos, dispositivos, nuvem e ferramentas.
 - [Telefonia e caixas postais](Sufficit/Telephony/index.md).
 - [Contratação e controle de serviços](Sufficit/Sales/index.md).
 - [Chamadas recebidas pelo WhatsApp](Sufficit/Gateway/WhatsApp/chamadas-whatsapp.md).
