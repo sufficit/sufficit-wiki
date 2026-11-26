@@ -23,7 +23,10 @@ Exemplo ilustrativo com a primeira opção ligada. Uma saudação de 4 segundos 
 
 ## O que acompanhar
 
-Separe **tempo desde a entrada na fila** de **espera após a saudação**. O primeiro mostra quanto a pessoa aguardou desde que entrou. O segundo ajuda a medir a espera quando os ramais já podem tocar. Se a entrada tiver apenas um canal, a saudação também ocupa esse canal.
+- **Entrada na fila** registra o momento em que a chamada é aceita pela aplicação, antes de tocar a saudação. A chamada conta como uma entrada mesmo se a pessoa desligar durante o áudio.
+- **Tempo de espera** começa quando a saudação termina, é pulada ou a fila retoma o fluxo após uma falha no áudio. Termina no atendimento ou na saída da fila. Se a chamada terminar durante a saudação, ela terá uma entrada registrada e nenhuma amostra de espera. Em uma fila sem saudação, a medição começa assim que a chamada fica disponível para atendimento.
+
+Se a entrada tiver apenas um canal, a saudação também ocupa esse canal.
 
 Um anúncio colocado antes da fila pertence ao plano de entrada. O áudio toca antes de o sistema registrar a entrada na fila. Use a saudação da própria fila quando precisar medir a entrada antes de tocar o áudio.
 
