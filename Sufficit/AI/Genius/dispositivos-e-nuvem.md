@@ -1,6 +1,8 @@
 ---
 title: Dispositivos e conversas na nuvem no Genius
-permalink: /Genius/dispositivos-e-nuvem/
+permalink: /ai/genius/dispositivos-e-nuvem/
+redirect_from:
+  - /Genius/dispositivos-e-nuvem/
 ---
 
 # Dispositivos e conversas na nuvem

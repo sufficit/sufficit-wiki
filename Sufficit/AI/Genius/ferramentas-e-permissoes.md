@@ -1,6 +1,8 @@
 ---
 title: Ferramentas, integrações e permissões no Genius
-permalink: /Genius/ferramentas-e-permissoes/
+permalink: /ai/genius/ferramentas-e-permissoes/
+redirect_from:
+  - /Genius/ferramentas-e-permissoes/
 ---
 
 # Ferramentas, integrações e permissões

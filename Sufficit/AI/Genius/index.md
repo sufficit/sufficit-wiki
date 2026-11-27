@@ -1,6 +1,8 @@
 ---
 title: Guia do Genius
-permalink: /Genius/
+permalink: /ai/genius/
+redirect_from:
+  - /Genius/
 ---
 
 # Guia do Genius

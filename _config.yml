@@ -8,6 +8,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-optional-front-matter
   - jekyll-readme-index
+  - jekyll-redirect-from
 relative_links:
   enabled: true
   collections: false

@@ -1,6 +1,8 @@
 ---
 title: Conversas, contexto e arquivos no Genius
-permalink: /Genius/conversas/
+permalink: /ai/genius/conversas/
+redirect_from:
+  - /Genius/conversas/
 ---
 
 # Conversas, contexto e arquivos

@@ -1,6 +1,8 @@
 ---
 title: Privacidade, atualizações e suporte no Genius
-permalink: /Genius/privacidade-e-suporte/
+permalink: /ai/genius/privacidade-e-suporte/
+redirect_from:
+  - /Genius/privacidade-e-suporte/
 ---
 
 # Privacidade, atualizações e suporte

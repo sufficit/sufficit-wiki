@@ -1,6 +1,8 @@
 ---
 title: Genius | GitHub CLI e Radicle
-permalink: /Genius/toolchain/
+permalink: /ai/genius/toolchain/
+redirect_from:
+  - /Genius/toolchain/
 ---
 
 # Genius — GitHub CLI e Radicle
