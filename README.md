@@ -8,6 +8,7 @@ Este repositório centraliza documentação em Markdown sobre fluxos de negócio
 
 - [Sufficit AI e privacidade de memórias](Sufficit/AI/index.md).
 - [Guia do Genius](Sufficit/AI/Genius/index.md) — conversas, arquivos, dispositivos, nuvem e ferramentas.
+- [Guia do Fleet](Sufficit/Fleet/index.md) — agentes e modos de resposta no WhatsApp.
 - [Telefonia e caixas postais](Sufficit/Telephony/index.md).
 - [Contratação e controle de serviços](Sufficit/Sales/index.md).
 - [Chamadas recebidas pelo WhatsApp](Sufficit/Gateway/WhatsApp/chamadas-whatsapp.md).
@@ -26,6 +27,7 @@ A documentação segue os namespaces do produto. Cada segmento corresponde a um 
 | Namespace | Caminho previsto | Assuntos |
 | --- | --- | --- |
 | `Sufficit.AI` | `Sufficit/AI/` | Memórias, privacidade e Genius. |
+| `Sufficit.Fleet` | `Sufficit/Fleet/` | Agentes e modos de resposta no WhatsApp. |
 | `Sufficit.Sales` | `Sufficit/Sales/` | Catálogo, contratos, contratação e renovação. |
 | `Sufficit.Finance` | `Sufficit/Finance/` | Cobrança, pagamentos e créditos. |
 | `Sufficit.Gateway` | `Sufficit/Gateway/` | Integrações; condições de uso e ativação. |
