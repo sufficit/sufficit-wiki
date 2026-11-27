@@ -30,6 +30,22 @@ Grupos criados ou adotados com um agente anfitrião começam em **Suporte**. Se 
 
 Em **Menção**, escrever o nome do agente pode acionar uma resposta. Use `@agente` ou responda a uma mensagem dele quando quiser deixar claro o destinatário.
 
+## Acompanhar a triagem do Hermes
+
+Em contas com a triagem do Hermes habilitada, abra a missão no Fleet e consulte
+as atividades recentes. O Fleet registra separadamente o desfecho de cada
+nota privada ou encaminhamento para uma equipe.
+
+- **Confirmado:** o Hermes confirmou a nota ou a atribuição à equipe.
+- **Descartado por proteção:** o Fleet encontrou uma mudança relevante, como
+  uma mensagem mais recente ou uma atribuição que precisa ser preservada.
+- **Falha de confirmação:** confira a conversa no Hermes antes de reenviar.
+  Uma interrupção pode ocorrer mesmo depois de o Hermes aceitar uma ação.
+
+Quando o agente decide ficar em silêncio, não há uma ação a entregar. A
+disponibilidade dos eventos depende da versão do Fleet na sua conta.
+Consulte as atividades geradas após a atualização.
+
 ## Guias relacionados
 
 - [Sufficit AI](../AI/index.md)
